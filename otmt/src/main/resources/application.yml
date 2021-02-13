@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: 
+    password: 
+    url: jdbc:mysql://localhost:3306/otmt?serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
